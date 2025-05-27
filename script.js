@@ -22,7 +22,7 @@ console.log(userAge);
 
 // Calcolare il prezzo del biglietto senza sconto.
 
-const ticketPrice = tripInKm * 0.21;
+let ticketPrice = tripInKm * 0.21;
 //console.log(ticketPrice);
 
 const priceEuro = ticketPrice.toLocaleString('it-IT', { style: 'currency', currency: 'EUR' });
@@ -59,13 +59,3 @@ else {
     console.log(priceEuro);
 }
 
-
-
-
-
-// // Provo ad usare il .toFixed 
-// const tripInKm = Number(prompt("Digitare il numero di chilometri che si vuole percorrere"));
-// const ticketPr = tripInKm * 0.21;
-// const ticketRounded = ticketPr.toFixed(2);
-// const euro = "\u20AC";
-// console.log(`${ticketRounded} ${euro}`);
