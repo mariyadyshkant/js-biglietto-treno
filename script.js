@@ -58,3 +58,14 @@ else if (userAge >= 65) {
 else {
     console.log(priceEuro);
 }
+
+
+
+
+
+// // Provo ad usare il .toFixed 
+// const tripInKm = Number(prompt("Digitare il numero di chilometri che si vuole percorrere"));
+// const ticketPr = tripInKm * 0.21;
+// const ticketRounded = ticketPr.toFixed(2);
+// const euro = "\u20AC";
+// console.log(`${ticketRounded} ${euro}`);
